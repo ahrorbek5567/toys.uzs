@@ -1,0 +1,191 @@
+.images{
+    background: url("background.jpg")center center / cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;    
+    height: 100vh;
+}
+
+.mycard{
+    width: 570px;
+    height: 308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.drive{
+    width: 153;
+    height: 48;
+    top: 204px;
+    left: 209px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #8DA22F;
+    border: none;
+    border-radius: 16px;
+    padding: 7px 30px;
+    margin-bottom:10px ;
+    color: white;
+}
+.drives{
+    width: 153;
+    height: 48;
+    top: 204px;
+    left: 209px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #8DA22F;
+    border: none;
+    padding: 7px 30px;
+    margin-bottom:10px ;
+    color: white;
+}
+.mycards{
+    position: relative;
+}
+
+.mycards img{
+    position: absolute;
+    left: 300px;
+    margin-top: -170px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+}
+
+.cards img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.cards h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cards p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.cards button {
+    background:#8DA22F;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.wolk{
+    background: url("14.jpg") center center / cover;
+    width: 100%;
+    height: 70vh;
+}
+.mycarding{
+    width: 800px;
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.uzun{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  article {
+    padding: 100px 0;
+}
+
+.shop_now {
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shop_now .shop_title h4 {
+    font-family: Varela Round;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.shop_title button {
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: none;
+    color: black;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 8px 15px;
+}
+.shop_now img{
+    transform: translateY(-58px);
+}
+
+.gallery img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.modal-content {
+    background: rgba(0, 0, 0, 0.9);
+}
+.button:hover{
+    background-color: #6f7d2e;
+}
